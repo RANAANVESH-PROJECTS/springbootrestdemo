@@ -1,4 +1,4 @@
-package com.howtodoinjava.rest.exception;
+package com.letsdoranaanvesh.rest.exception;
 
 import java.util.List;
 

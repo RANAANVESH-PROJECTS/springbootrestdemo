@@ -1,4 +1,4 @@
-package com.howtodoinjava.rest.controller;
+package com.letsdoranaanvesh.rest.controller;
 import java.net.URI;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.howtodoinjava.rest.dao.EmployeeDAO;
-import com.howtodoinjava.rest.model.Employee;
-import com.howtodoinjava.rest.model.Employees;
+import com.letsdoranaanvesh.rest.dao.EmployeeDAO;
+import com.letsdoranaanvesh.rest.model.Employee;
+import com.letsdoranaanvesh.rest.model.Employees;
 
 @RestController
 @RequestMapping(path = "/employees")
